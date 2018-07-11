@@ -116,6 +116,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Solution.cpp" />
+    <ClCompile Include="Solution001.cpp" />
+    <ClCompile Include="Solution002.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Solution.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

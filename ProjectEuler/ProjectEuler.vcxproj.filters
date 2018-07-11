@@ -13,10 +13,30 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Solutions">
+      <UniqueIdentifier>{4bd867cd-bc8a-4ca0-bdfb-3136e14da419}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Solutions">
+      <UniqueIdentifier>{48896946-89e8-436e-9d7d-b410e80e081b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Solution.cpp">
+      <Filter>Source Files\Solutions</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution001.cpp">
+      <Filter>Source Files\Solutions</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution002.cpp">
+      <Filter>Source Files\Solutions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Solution.h">
+      <Filter>Header Files\Solutions</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
