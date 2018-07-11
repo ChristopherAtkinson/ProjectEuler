@@ -119,6 +119,7 @@
     <ClCompile Include="Solution.cpp" />
     <ClCompile Include="Solution001.cpp" />
     <ClCompile Include="Solution002.cpp" />
+    <ClCompile Include="Solution003.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution.h" />
