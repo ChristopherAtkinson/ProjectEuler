@@ -42,3 +42,14 @@ public:
 	Solution003(unsigned long long number);
 	virtual ~Solution003();
 };
+
+/// <summary> Largest palindrome product
+///A palindromic number reads the same both ways.The largest palindrome made from the product of two 2 - digit numbers is 9009 = 91 × 99.
+///Find the largest palindrome made from the product of two 3 - digit numbers.
+/// </summary>
+class Solution004 : public Solution
+{
+public:
+	Solution004();
+	virtual ~Solution004();
+};
