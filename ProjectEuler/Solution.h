@@ -39,6 +39,6 @@ public:
 class Solution003 : public Solution
 {
 public:
-	Solution003();
+	Solution003(unsigned long long number);
 	virtual ~Solution003();
 };

@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 {
 	Run<Solution001>(1000U); 
 	Run<Solution002>(4000000U);
-	Run<Solution003>();
+	Run<Solution003>(600851475143);
 
 	system("Pause");
 }
