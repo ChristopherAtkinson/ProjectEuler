@@ -2,6 +2,7 @@
 
 Solution003::Solution003(unsigned long long number)
 {
+	auto copy = number; 
 	auto factor = 1ULL; 
 
 	while (factor != number)
@@ -21,7 +22,7 @@ Solution003::Solution003(unsigned long long number)
 		}
 	}
 
-	std::cout << "The greatest prime factor is " << factor << std::endl;
+	std::cout << "The greatest prime factor of " << copy << " : " << factor << std::endl;
 }
 
 Solution003::~Solution003()
